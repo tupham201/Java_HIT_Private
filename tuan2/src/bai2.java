@@ -12,7 +12,6 @@ public class bai2 {
         {
             a[i] = sc.nextInt();
             a[i] += a[i-1];
-            //System.out.println(a[i]);
         }
         int maxx = Integer.MIN_VALUE;
         for(int i =1;i<=n;i++){
