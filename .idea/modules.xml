@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_HIT.iml" filepath="$PROJECT_DIR$/.idea/Java_HIT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/btttuan3/btttuan3.iml" filepath="$PROJECT_DIR$/btttuan3/btttuan3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bttuan4/bttuan4.iml" filepath="$PROJECT_DIR$/bttuan4/bttuan4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buoi4/buoi4.iml" filepath="$PROJECT_DIR$/buoi4/buoi4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai3-buoi1/tuan1_bai1/tuan1_bai1.iml" filepath="$PROJECT_DIR$/bai3-buoi1/tuan1_bai1/tuan1_bai1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai3-buoi1/tuan1_bai2/tuan1_bai2.iml" filepath="$PROJECT_DIR$/bai3-buoi1/tuan1_bai2/tuan1_bai2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bai3-buoi1/tuan1_bai3/tuan1_bai3.iml" filepath="$PROJECT_DIR$/bai3-buoi1/tuan1_bai3/tuan1_bai3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tuan2/tuan2.iml" filepath="$PROJECT_DIR$/tuan2/tuan2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled/untitled1/untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled2/untitled2.iml" filepath="$PROJECT_DIR$/untitled/untitled2/untitled2.iml" />
+    </modules>
+  </component>
+</project>
