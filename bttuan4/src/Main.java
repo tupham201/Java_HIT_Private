@@ -3,13 +3,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
+    public  static Author Tg;
+    public  static Fairy ct;
     public static void main(String[] args) {
         ArrayList<Book> books = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
-        books.add(new Book(1, "1", "1", 1, "1", 1));
-        books.add(new Book(2, "2", "2", 2, "2", 2));
-        books.add(new Book(3, "3", "3", 3, "3", 3));
+        books.add(new Book(1, "1", new Author(), 1, "1", 1));
+        books.add(new Book(2, "2", new Author(), 2, "2", 2));
+        books.add(new Book(3, "3", new Author(), 3, "3", 3));
 
         System.out.println("Menu:");
         System.out.println("1. Thêm sách mới");
@@ -43,7 +45,7 @@ public class Main {
         System.out.print("Nhập giá tiền: ");
         double giaTien = sc.nextDouble();
 
-        books.add(new Book(maSach, tenSach, tenTacGia, namSanXuat, tomTatNoiDung, giaTien));
+        books.add(new Book(maSach, tenSach, Tg, namSanXuat, tomTatNoiDung, giaTien));
         System.out.println("Đã thêm sách mới thành công!");
         printBooks(books);
     }
@@ -58,7 +60,7 @@ public class Main {
                 System.out.print("Nhập tên sách mới: ");
                 book.setTenSach(sc.nextLine());
                 System.out.print("Nhập tên tác giả mới: ");
-                book.setTenTacGia(sc.nextLine());
+                book.setTenTacGia(Tg);
                 System.out.print("Nhập năm sản xuất mới: ");
                 book.setNamSanXuat(sc.nextInt());
                 sc.nextLine();
